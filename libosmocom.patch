@@ -1,0 +1,11 @@
+--- configure.ac.orig	2014-11-26 22:07:32.694659485 +0100
++++ configure.ac	2014-11-26 22:07:51.986659164 +0100
+@@ -20,7 +20,7 @@
+ AC_CONFIG_MACRO_DIR([m4])
+ 
+ dnl checks for libraries
+-PKG_CHECK_MODULES(LIBOSMOCORE, libosmocore >= 0.4.1)
++PKG_CHECK_MODULES(LIBOSMOCORE, libosmocore >= UNKNOWN)
+ PKG_CHECK_MODULES(LIBOSMODSP, libosmodsp)
+ PKG_CHECK_MODULES(FFTW3F, fftw3f >= 3.2.0)
+ 
