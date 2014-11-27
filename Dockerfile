@@ -1,4 +1,4 @@
-FROM marcelmaatkamp/gnuradio-osmocom-libosmocore
+FROM marcelmaatkamp/gnuradio-osmocom-libosmo-dsp
 
 MAINTAINER m.maatkamp@gmail.com version: 0.1
 
